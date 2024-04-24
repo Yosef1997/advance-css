@@ -2,3 +2,341 @@
   margin: 0px;
   padding: 0px;
 }
+
+.page {
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 60px;
+  background-color: #edecff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+nav ul li a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.2px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+nav div {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+nav div button {
+  width: Hug (151px) px;
+  height: Fixed (40px) px;
+  padding: 10px 30px 10px 30px;
+  border: 0px 0px 0px 4px;
+  opacity: 0px;
+  background-color: #fbf3eb;
+}
+
+.hero {
+  display: flex;
+  background-color: #edecff;
+  padding: 37px 60px 37px 60px;
+  max-width: 100%;
+  max-height: 691px;
+  justify-content: space-between;
+}
+
+.hero .hero-detail {
+  width: 50%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hero .hero-detail h2 {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 81.09px;
+  text-align: left;
+  color: #333333;
+}
+
+.hero .hero-detail p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  color: #333333;
+}
+
+.hero .hero-detail button {
+  width: 196px;
+  padding: 10px 30px 10px 20px;
+  gap: 15px;
+  border: 0px 0px 0px 4px;
+  opacity: 0px;
+  background-color: #fdd9d3;
+}
+
+.hero .hero-images {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.hero .hero-images div:nth-child(even) {
+  margin-top: 66px;
+}
+
+.hero .hero-images div:nth-child(odd) {
+  margin-bottom: 66px;
+}
+
+.hero .hero-images div figure img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.hero .hero-images div figure figcaption {
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 12px;
+  text-align: left;
+  margin-left: 27px;
+}
+
+.section-2 {
+  padding: 60px;
+  margin-bottom: 60px;
+}
+
+.section-2 .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 69.5px;
+  text-align: left;
+  color: #333333;
+}
+
+.section-2 .contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-2 #pw-contents {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.section-2 #pw-contents .pw-contents-1 {
+  width: 50%;
+  background-image: url("../assets/articler8.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-2 #pw-contents .pw-contents-1 div {
+  color: #fff;
+}
+
+.section-2 #pw-contents .pw-contents-1 div h6 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.section-2 #pw-contents .pw-contents-1 div #card-legend {
+  display: flex;
+  gap: 30px;
+}
+
+.section-2 #pw-contents .pw-contents-1 #pw-contents-1-tag {
+  display: flex;
+  gap: 30px;
+  color: #000;
+}
+
+.section-2 #pw-contents .pw-contents-1 #pw-contents-1-tag button {
+  padding: 5px 15px 5px 15px;
+  border-radius: 8px;
+  border-color: transparent;
+}
+
+.section-2 #pw-contents .pw-contents-1 #pw-contents-1-tag div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.section-2 #pw-contents .pw-contents-2 {
+  width: 50%;
+}
+
+.section-2 #pw-contents div .contents-submit-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.section-2 #pw-contents div .contents-submit-card #card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-2
+  #pw-contents
+  div
+  .contents-submit-card
+  #card-description
+  #card-legend {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 5px;
+}
+
+.section-2 ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.section-2 ul li a {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.section-2 .contents .contents-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.section-2 .contents .contents-card div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section-2 .contents-submit {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.section-2 .contents-submit .contents-submit-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.section-2 .contents-submit .contents-submit-card #card-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-2 .contents-submit .contents-submit-card #card-description div h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #656565;
+}
+
+.section-2 .contents-submit .contents-submit-card #card-description div h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 46.34px;
+  text-align: left;
+  color: #333333;
+}
+
+.section-2 .contents-submit .contents-submit-card #card-description div p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  color: #333333;
+}
+
+.section-2
+  .contents-submit
+  .contents-submit-card
+  #card-description
+  #card-legend {
+  display: flex;
+  gap: 60px;
+  margin-top: 10px;
+}
+
+.email {
+  background-color: #edecff;
+  padding: 60px;
+}
+
+.email h1 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 46.34px;
+  color: #333333;
+}
+
+.email h1 span {
+  color: #656565;
+  text-decoration: underline;
+}
+
+footer {
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .list {
+  display: flex;
+  gap: 60px;
+}
+
+footer .list div {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.2px;
+  text-align: center;
+  color: #333333;
+}
